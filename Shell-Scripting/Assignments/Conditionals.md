@@ -31,13 +31,13 @@
 
 Write a script that checks if a variable num is greater than 0. If true, print "Positive number." Otherwise, print "Not a positive number."
 
-* #!/bin/bash
-* num=-5
-* if [ $num -gt 0 ]; then
-*    echo "Positive number."
-* else
-*    echo "Not a positive number."
-* fi
+#!/bin/bash  
+num=-5  
+if [ $num -gt 0 ]; then  
+    echo "Positive number."  
+else  
+    echo "Not a positive number."  
+fi  
 
 ### Exercise 2: Check for an Empty String
 
