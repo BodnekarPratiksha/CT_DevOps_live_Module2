@@ -31,6 +31,7 @@
 
 Write a script that prints numbers from 1 to 10 using a for loop.
 
+```bash
 #!/bin/bash
 for i in {1..10}
 do
@@ -41,6 +42,7 @@ done
 
 Write a script to find the sum of even numbers between 1 and 20 using a while loop.
 
+```bash
 #!/bin/bash
 sum=0
 i=2
