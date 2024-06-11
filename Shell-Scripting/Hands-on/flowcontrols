@@ -1,0 +1,54 @@
+
+
+Sequential running of commands until the conditions are met.
+
+1. Conditions : if , else
+2. Looping: for , while , until
+3. Switch
+
+1 . Conditions
+bash------
+if [ condition1 ]; then
+some commands
+elif [ condition2 ]; then
+some commands
+else
+some commands
+fi
+
+tcsh
+-----------------
+if ( condition1 ) then
+some commands
+else if ( condition2 ) then
+some commands
+else
+some commands
+endif
+
+Integer comparision
+-eq, -ne, -gt, -ge, -lt   | <=, >=,
+
+String comparsion
+==, !=, -n , -z , 
+
+2. Loops: for , while , until
+
+for arg in list
+do
+ some commands
+done
+
+-----
+
+while [ condition ]
+do
+ some commands
+done
+
+---
+
+until [ condition is true ]
+do
+some commands
+done
