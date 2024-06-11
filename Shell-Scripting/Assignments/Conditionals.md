@@ -45,7 +45,7 @@ fi
 
 Create a script to check if a variable str is empty. Print "String is empty" or "String is not empty" accordingly.
 
-```bash
+
 #!/bin/bash
 str=""
 if [ -z "$str" ]; then

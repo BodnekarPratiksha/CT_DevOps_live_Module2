@@ -42,7 +42,7 @@ done
 
 Write a script to find the sum of even numbers between 1 and 20 using a while loop.
 
-```bash
+
 #!/bin/bash
 sum=0
 i=2
