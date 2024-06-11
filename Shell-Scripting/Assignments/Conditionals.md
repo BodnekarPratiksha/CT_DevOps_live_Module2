@@ -34,9 +34,9 @@ Write a script that checks if a variable num is greater than 0. If true, print "
 * #!/bin/bash
 * num=-5
 * if [ $num -gt 0 ]; then
-*    echo "Positive number."
+ *    echo "Positive number."
 * else
-*    echo "Not a positive number."
+ *    echo "Not a positive number."
 * fi
 
 ### Exercise 2: Check for an Empty String
