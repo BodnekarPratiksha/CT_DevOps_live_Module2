@@ -31,6 +31,7 @@
 
 Write a script that checks if a variable num is greater than 0. If true, print "Positive number." Otherwise, print "Not a positive number."
 
+```bash
 #!/bin/bash  
 num=-5  
 if [ $num -gt 0 ]; then  
@@ -44,6 +45,7 @@ fi
 
 Create a script to check if a variable str is empty. Print "String is empty" or "String is not empty" accordingly.
 
+```bash
 #!/bin/bash
 str=""
 if [ -z "$str" ]; then
