@@ -1,0 +1,9 @@
+grep , sed
+grep--- filter object
+sed -- stream editor , transform your text object (subs, remove, replace)
+
+s-- substitute
+g -- replace
+i --ignore case
+
+> abz.txt 2> , &> , &>>   - redirectors

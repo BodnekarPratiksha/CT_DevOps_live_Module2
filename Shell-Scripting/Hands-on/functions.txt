@@ -1,0 +1,42 @@
+NFR
+
+Non Funtional Requirements
+1. u cannot expose password directly
+2. Keep ur code DRY
+3. rerun of code should never fail
+
+install 
+
+yum install nginx
+systemctl enable nginx
+systemctl start nginx
+
+vi /etc/nhinx/index.html
+systemctl restart nginx
+
+nginx.sh
+
+yum install nginx
+systemctl enable nginx
+systemctl start nginx
+
+vi /etc/nhinx/index.html
+systemctl restart nginx
+
+nginx () {
+    yum install nginx
+    systemctl enable nginx
+    systemctl start nginx
+
+    vi /etc/nhinx/index.html
+    systemctl restart nginx
+}
+
+source nginx
+
+abc.sh
+
+source nginx
+
+
+

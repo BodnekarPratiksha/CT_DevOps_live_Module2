@@ -1,0 +1,7 @@
+100 Thomas Manager Sales $5,000
+200 Jason Developer Technology $5,500
+300 Raj Sysadmin Technology $7,000
+500 Randy Manager Sales $6,000
+
+find tehe people fo domain sales and role Manager
+
